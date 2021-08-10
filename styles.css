@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    border-bottom: 1px solid ;
+    color: #ffff;
+    background-color: #000;
+    height: 100px;
+}
+
+.container_header{
+    padding-top: 25px;
+}
+
+.main_container{
+    height: vw;
+    display: flex;
+}
+
+form {
+    width: 50%;
+   
+}
+
+
+.title {
+ padding-top: 10px;
+
+ text-align: center;
+}
+
+
+.form-group {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.submit {
+    padding: 5px;
+    text-align: center;
+}
+
+.submit_btn {
+    color: #ffff;
+    font-weight: 800;
+    background-color: black;
+    width: 27%;
+}
+
+/* Right section of the container */
+
+.products_container {
+    
+    width: 50%;
+}
+
+
+
+
+   
