@@ -55,11 +55,20 @@ form {
 /* Right section of the container */
 
 .products_container {
-    
     width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+   
 }
 
 
 
+.lines {
+    list-style: none;
+}
+
+.container_product {
+    border: 1px solid black;
+}
 
    
