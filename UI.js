@@ -10,15 +10,27 @@ export class UI {
                        <li><p>Price:</p>  ${product.price} €</li>
                        <li><p>Qty:</p>  ${product.quantity} uds</li>
                    </ul>
+                   <div id="btn_delete">
+                    <a id="delete" type="button" name="delete">Delete</a>
+                    </div>
                </div>
             </div>`;
         productList.appendChild(element);
+
+
         
     }
 
     resetForm() {
         document.getElementById("product-form").reset();
       }
+
+    deleteProduct(element){
+        if(element.name === "delete"){
+            element.parentElement.parentElement.remove();
+
+        }
+    }
 
 }
 
