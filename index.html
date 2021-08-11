@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Products-App</title>
+  </head>
+  <body>
+    <header>
+      <div class="container_header">
+        <h3>Products storage</h3>
+      </div>
+    </header>
+
+    <div class="main_container">
+        
+      <form id="product-form" class="card-body">
+        <div class="title">
+            <h4>Add New Products</h4>
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="name"
+            placeholder="Product Name"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            id="price"
+            step="0.01"
+            placeholder="Product Price"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            id="quantity"
+            value=""
+            placeholder="Product Quantity"
+            class="form-control"
+          />
+        </div>
+        <div class="submit">
+            <input class="submit_btn" type="submit" value="Save" />
+        </div>
+      </form>
+
+      <!-- Right section -->
+      
+      <div id="product_list" class="products_container" >
+           
+      </div>
+     
+
+    </div>
+     
+  
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
