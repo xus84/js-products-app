@@ -1,6 +1,8 @@
 export class UI {
     addProduct(product) {
         const productList = document.getElementById("product_list");
+        let inputName = document.getElementById("name");
+        localStorage.setItem("name", inputName.value);
         const element = document.createElement('div'); 
         element.innerHTML = `
             <div id="row_list">
@@ -32,8 +34,9 @@ export class UI {
         }
     }
 
+    
+    
+
 }
 
-
- 
         
