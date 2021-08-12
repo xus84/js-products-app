@@ -106,3 +106,12 @@ p {
 
 }
 
+/* below part with json data*/
+
+.card-json {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    border: 1px solid black;
+}
+

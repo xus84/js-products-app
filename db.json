@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "raspberypi1",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "raspberypi2",
+      "price": 150
+    },
+    {
+      "id": 3,
+      "name": "raspberypi3",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "name": "raspberypi4",
+      "price": 450
+    },
+    {
+      "id": 5,
+      "name": "raspberypi5",
+      "price": 550
+    }
+  ]
+}

@@ -23,5 +23,32 @@ document
            e.preventDefault() 
         })
     })
+
+
+    
+    document.getElementById('getJson').addEventListener('click', getJson);
+
+    function getJson() {
+       fetch('data.json')
+        .then((res) => res.json())
+        .then((data) => {
+            let output =    `<h3>Json List</h3>`;
+            data.forEach((data) =>{
+                output += `
+                <ul style="list-style-type: none" >
+                    <li> name: ${data.name}</li>
+                    <li> price: ${data.price}</li>
+                </ul>`
+            }) 
+            document.getElementById('showJson').innerHTML = output;
+        })
+      
+        
+   }
+
+
+
+
+
    
 
